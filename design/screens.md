@@ -3,6 +3,16 @@
 Parcours en 6 étapes, 12 écrans + 2 planches de fondations. Chaque artboard du canvas
 porte le nom de fichier indiqué.
 
+Trois séries coexistent sur le canvas :
+
+| Série | Ce qu'elle est | Typo |
+| --- | --- | --- |
+| v1 — `Accueil`, `Capture`… | premier jet | Fraunces + Inter |
+| V2 — `AccueilV2`… | direction « Bobinou te guide » : titres en phrases, ombres, rayons unifiés | Young Serif + Space Grotesk |
+| V3 — `CaptureV3`… | V2 + le fil de progression à la place de la barre, sur les 6 écrans qui portent une étape | Young Serif + Space Grotesk |
+
+La série v1 est conservée comme archive ; elle n'a pas été reprise.
+
 ## Fondations
 
 | Artboard | Contenu |

@@ -27,9 +27,16 @@ Jetons : [`tokens.json`](./tokens.json) · Écrans : [`screens.md`](./screens.md
 | Ambre | `#8A5A00` | À vérifier, estimation |
 | Brique | `#A33327` | Erreur, manque |
 
-**Typographie.** *Fraunces* (serif humaniste, empattements un peu « tissés ») pour les
-titres ; *Inter* pour toute l'interface. Chiffres en `tabular-nums` partout où une valeur
-se compare d'une ligne à l'autre (cm, g, m², %).
+**Typographie.** *Young Serif* pour les titres — serif massif à empattements francs,
+**une seule graisse** : la hiérarchie se fait par la taille, jamais par le gras, sinon le
+navigateur fabrique un faux gras qui écrase les empattements. *Space Grotesk* pour
+l'interface et les chiffres : elle descend de Space Mono, ses chasses sont quasi égales,
+donc les colonnes de poids et d'écheveaux s'alignent. `tabular-nums` reste posé partout
+où une valeur se compare d'une ligne à l'autre (cm, g, m², %).
+
+Écartées en cours de route : Raleway (pas de chiffres tabulaires), Fraunces + Inter
+(le réglage initial, plus chaleureux mais plus sage), et cinq autres associations —
+le détail est dans [`../docs/decisions.md`](../docs/decisions.md).
 
 **Formes.** Rayons 8 (vignettes) / 16 (cartes) / 999 (boutons, puces). Boutons en pilule,
 hauteur 54 px pour l'action principale, 44 px minimum partout ailleurs. Ombres rares :
@@ -37,8 +44,15 @@ hauteur 54 px pour l'action principale, 44 px minimum partout ailleurs. Ombres r
 
 **Iconographie.** Trait 1,6 px, bouts arrondis, jamais remplie. Jamais d'emoji.
 
-**Mascotte.** La bobine de Bobinou, avec deux yeux et un sourire, apparaît dans les
-cartes d'aide et les confirmations — pas dans les barres d'outils.
+**Logo.** Une vraie bobine de laine vue de trois quarts : joues en ellipses ouvertes
+(ratio 0,33, on voit le dessus du disque), moyeu à rayons, cinq spires bombées, et un brin
+unique qui passe derrière à gauche, traverse la face avant en s'affaissant, puis retombe
+en volute. Pas de visage : la mascotte à yeux et sourire a été abandonnée.
+
+La laine prend la teinte du projet, les joues gardent toujours le terracotta. Réductions :
+les passes de fil tombent sous 40 px, le brin sous 24 px, et à 16 px il ne reste que la
+silhouette. Valeurs exactes dans [`tokens.json`](./tokens.json), déclinaisons et règles
+d'emploi sur la planche V7 du canvas.
 
 ## Ton de voix
 
