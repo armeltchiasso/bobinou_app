@@ -67,6 +67,26 @@ Remplace Fraunces + Inter.
 et les associations « sages » — Spectral, DM Serif, IBM Plex, Instrument Serif, Bitter.
 Piste non explorée faute d'hébergement : Redaction, libre, en six grades de dégradation.
 
+## 2026-11-21 · Une version fleurie de la bobine
+
+Un semis de petites fleurs cernées — pétales indigo, cœur terracotta, feuilles vert d'eau
+`#BCD9D4` — est posé **sur la laine** et détouré par les joues, de sorte que le motif
+tourne avec la bobine. La construction du logo ne change pas : seul le remplissage de la
+masse de laine est repris. Trois états : écrue à semis indigo, indigo à semis écru, réserve.
+
+Emploi : écran d'ouverture, première page de la fiche imprimée, étiquette d'écheveau,
+communication. Jamais dans un en-tête d'écran de travail, où elle concurrencerait les
+couleurs du modèle. Le semis ne descend pas sous **56 px** ; en dessous, la bobine est nue.
+
+La fleurie rejoint la planche V7 (la gamme). La planche d'exploration « V8 — la bobine et
+les fleurs » a été supprimée du canvas.
+
+Écarté : la grande fleur unique en face avant, les spires en guirlandes de pétales, le ruban
+fleuri, et les cinq greffes qui posaient les fleurs *autour* de la bobine (moyeu en étamines,
+brin fleuri, joues en corolle, spires en pétales, bobine dans la fleur). Également écarté :
+importer le rose `#EE8FC0` et l'orange `#F4792B` de la référence — la direction Atelier reste
+sourde, on n'emprunte que les formes et le vert d'eau.
+
 ## En suspens
 
 - **Le fil de progression** (V8 / série V3) : la barre devient un fil qui dessine le

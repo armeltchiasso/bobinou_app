@@ -49,6 +49,11 @@ hauteur 54 px pour l'action principale, 44 px minimum partout ailleurs. Ombres r
 unique qui passe derrière à gauche, traverse la face avant en s'affaissant, puis retombe
 en volute. Pas de visage : la mascotte à yeux et sourire a été abandonnée.
 
+Une neuvième version, **fleurie**, porte un semis de petites fleurs cernées posé sur la laine
+et coupé par les joues : le motif tourne avec la bobine. C'est la version de fête — écran
+d'ouverture, première page de la fiche imprimée, étiquette d'écheveau, communication — jamais
+dans un en-tête d'écran de travail. Elle ne descend pas sous 56 px ; en dessous, la bobine est nue.
+
 La laine prend la teinte du projet, les joues gardent toujours le terracotta. Réductions :
 les passes de fil tombent sous 40 px, le brin sous 24 px, et à 16 px il ne reste que la
 silhouette. Valeurs exactes dans [`tokens.json`](./tokens.json), déclinaisons et règles
