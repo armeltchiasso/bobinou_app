@@ -87,6 +87,32 @@ brin fleuri, joues en corolle, spires en pétales, bobine dans la fleur). Égale
 importer le rose `#EE8FC0` et l'orange `#F4792B` de la référence — la direction Atelier reste
 sourde, on n'emprunte que les formes et le vert d'eau.
 
+## 2026-11-23 · Le métier corrige trois écrans
+
+Les réponses de Ju, recoupées page par page avec Galice 1985
+([`reponses-metier.md`](./reponses-metier.md)), invalident trois hypothèses déjà
+maquettées. Elles sont actées, les écrans sont à reprendre.
+
+**Le calque sort à l'envers.** En haute lice le licier est derrière le métier et le voit
+à contre-jour ; en basse lice il est « repris à l'envers » sur papier toilé. Les deux
+techniques, donc : le miroir est le sens d'emploi par défaut de `ExportCalque`, pas une
+option.
+
+**Le calque se découpe en bandes de 20 ou 40 cm, pas en pages.** Au-delà, les fils de
+chaîne travaillent et un trait horizontal devient une dent de scie. Chaque bande porte sa
+ligne de cordeau et chevauche la partie tissée. Ferme le pavage A4 libre et l'exemple
+« 120 × 90 → 24 pages ». Le pas se déduit du curseur de détail : détaillé → 20, large → 40.
+
+**F2 part de la technique, pas du nombre de tons.** Aplats / hachure / chiné / demi-duite
+se choisit d'après le modèle, et le nombre de tons en découle. Une hachure classique
+fabrique trois zones intermédiaires entre deux tons : elles se tissent, elles ne se
+teignent pas. Le curseur 4 → 16 reste, mais en second.
+
+Ce que ça ouvre, en revanche : la consommation a enfin une plage (1 à 2 kg/m²) et les
+contextures une table (2 à 8 fils/cm). Comme le facteur 2 écrase tout, `Chiffrage` gagne
+un champ **« j'ai pesé mon essai »** — la méthode du métier, et une compétence évaluée au
+BMA.
+
 ## En suspens
 
 - **Le fil de progression** (V8 / série V3) : la barre devient un fil qui dessine le
