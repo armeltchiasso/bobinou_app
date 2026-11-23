@@ -253,8 +253,10 @@ fournisseur, pas de durée de calque — mais il **confirme**, et donne deux chi
 > « Carton : agrandissement de la maquette "aux carreaux" et plan de travail pour le
 > tissage **portant les numéros de chaque couleur**. »
 
-La numérotation des zones n'est donc pas une commodité d'interface : c'est la définition
-du carton. La maquette est la « création d'un artiste peintre ou cartonnier », et la
+La numérotation des zones n'est donc pas une commodité d'interface, c'est un usage
+d'atelier — mais **pas la définition du mot** : Galice appelle carton la maquette
+agrandie à l'échelle 1, sans numéros (voir *e bis* plus bas). La maquette est la
+« création d'un artiste peintre ou cartonnier », et la
 lissière « doit recréer une image peinte par une technique autre que celle du peintre
 cartonnier ». L'agrandissement se fait **aux carreaux**, à la grille.
 
@@ -338,13 +340,52 @@ poids en g* comme source de la consommation, et basculer la ligne de `Matiere` d
 « estimée » à « mesurée ». Ça colle au principe 2 de la charte (la mesure affiche sa
 source) et ça transforme la faiblesse du d. en fonctionnalité.
 
-### e bis. `Zones` ne produit pas une image, il produit le carton
+### e bis. Ne pas appeler `Zones` « carton » — le mot est déjà pris
 
-« Carton : agrandissement de la maquette aux carreaux et plan de travail pour le tissage
-portant les numéros de chaque couleur » (§ 8). L'écran `Zones` ne reproduit donc pas une
-convention de peinture par numéros empruntée à l'extérieur : il fabrique l'artefact que
-le métier appelle carton. Deux conséquences — le nommer ainsi dans l'interface, et
-assumer qu'il est le livrable principal de F1 + F2, pas un aperçu.
+*Révisé le 2026-11-23 après vérification dans le livre. La version précédente de ce point
+recommandait l'inverse ; elle s'appuyait sur le seul site de Dominique de Serres.*
+
+Trois vocabulaires se croisent, et ils ne s'accordent pas :
+
+| Source | Ce qu'elle appelle « carton » |
+| --- | --- |
+| **Galice 1985** (p. 177) | La **maquette agrandie aux dimensions d'exécution**, en couleur. Rien sur des numéros : le mot « numéro » n'apparaît nulle part dans les chapitres du carton, du calquage ou de l'échantillonnage. |
+| **Atelier de Serres**, Aubusson / Trébeurden | Le « plan de travail pour le tissage portant les numéros de chaque couleur ». |
+| Blog de vulgarisation (2012) | Distingue *carton-calque* et *carton numéroté*. Aucune autorité, non retenu. |
+
+La chaîne de Galice est : **maquette** (l'original de l'artiste, souvent petit) →
+**carton** (son agrandissement à l'échelle 1) → **calque** (le relevé pris sur le carton,
+reporté sur les fils en haute lice, retranscrit à l'envers sur papier toilé en basse
+lice). La numérotation des couleurs existe donc bien en atelier, mais c'est un usage
+d'Aubusson attesté par une source, pas la définition du mot.
+
+**Conséquence pour l'app, à l'inverse de ce qui était écrit ici :** dans le vocabulaire
+que l'étudiant apprend, le carton est **l'entrée** de Bobinou — ce qu'il photographie —
+pas sa sortie. Nommer `Zones` « carton » créerait une collision sur le mot le plus chargé
+du métier. Garder `Zones`, ou « calque numéroté ».
+
+### e ter. Galice décrit déjà l'agrandissement photographique — et son défaut
+
+C'est exactement ce que fait Bobinou, et le livre en connaît le mode de ruine (p. 177) :
+
+> « Sur une maquette de 15 cm × 15 cm agrandie ne serait-ce que dix fois (1,50 m × 1,50 m),
+> le moindre petit moucheté devient un groupe de taches qui n'exprime plus le même effet
+> et qui demanderait à être repris par l'auteur. »
+
+Et son verdict, nuancé par technique : « Ce procédé par l'agrandissement photographique
+peut être suffisant pour la haute lice ou la Savonnerie. Pour la basse lice de même, avec
+inévitablement la retranscription à l'envers, sur papier toilé. »
+
+Trois choses à en tirer :
+
+- le facteur d'agrandissement est une **variable de risque** que le prototype devrait
+  sortir, au même titre que le nombre de traits : un modèle photographié de petite taille
+  et tissé grand est le cas où le tracé part en morceaux ;
+- Galice ne dit pas que c'est faux, il dit que **le licier doit faire la part des choses,
+  en concertation avec le peintre**. C'est mot pour mot le principe 1 de la charte :
+  l'app propose, le lissier tranche ;
+- la photo `oeuvres/IMG_1218` prise à la manufacture — le grand carton photographique
+  tendu sur rail — est une illustration de ce procédé. C'est un bon cas de test.
 
 ### f. Le nuancier de l'école est un système, pas une liste
 
