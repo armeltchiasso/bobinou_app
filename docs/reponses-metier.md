@@ -35,6 +35,16 @@ chacun », et ces repères sont reportés à l'encre sur les fils de chaîne : a
 papier toilé ne peut pas être roulé avec la partie tissée sans décalage, il faut pouvoir
 le recoudre en place (Galice, p. 179).
 
+Un atelier en activité le formule plus sèchement, et mieux (Dominique de Serres,
+Trébeurden, basse lice — [tapisseries-de-serres.com](https://www.tapisseries-de-serres.com/technique.php)) :
+
+> « Calque : carton inversé, placé sous la chaîne au moment du tissage et servant de
+> guide à l'artisan. »
+
+Le calque **est** le carton inversé, pas un document distinct. Troisième source
+indépendante sur le miroir, après le livre et la Cité internationale de la tapisserie :
+le sujet est clos.
+
 ### La contrainte qui commande tout : la fragmentation en bandes
 
 > « Il sera donc impossible de tracer sur plus de vingt centimètres de haut pour une
@@ -180,6 +190,10 @@ par pienne — **la pienne faisant 10 cm**, elle se lit aussi en fils/cm.
 
 Soit **2 à 8 fils de chaîne au centimètre** en tapisserie, 8 en Savonnerie.
 
+L'atelier de Dominique de Serres travaille aujourd'hui « dans une texture assez fine de
+**5 fils au cm** » — au milieu de la fourchette. La table de 1985 décrit donc encore une
+pratique courante, ce qui n'allait pas de soi.
+
 Le réglage se fait par la trame : trop fine, on fait du reps et l'ouvrage rétrécit ; trop
 grosse, elle ne se tasse pas, la chaîne reste apparente en points blancs, ou le tissu
 gondole et s'élargit. Le bon grain « ressemble à un grain de blé ou de riz ».
@@ -223,6 +237,49 @@ Le carton doit être agrandi à l'échelle 1 de la tapisserie : au-delà de la l
 traceur on travaille en lés à raccorder. Et le carton n'est de toute façon utilisable
 qu'une fois transposé en modèle tissable — certains effets photographiques ne se tissent
 pas.
+
+## 8. Repères d'un atelier en activité
+
+*Ajouté le 2026-11-23. Source : [tapisseries-de-serres.com](https://www.tapisseries-de-serres.com/),
+atelier de **Dominique de Serres**, lissière à Trébeurden (22) depuis 1985, diplômée de
+l'École nationale d'art décoratif d'Aubusson en 1981. Basse lice, métier d'Aubusson. Tout
+le contenu technique du site tient sur une page.*
+
+Le site ne calibre rien — pas de nombre de couleurs, pas de consommation, pas de
+fournisseur, pas de durée de calque — mais il **confirme**, et donne deux chiffres.
+
+**Le carton porte les numéros.**
+
+> « Carton : agrandissement de la maquette "aux carreaux" et plan de travail pour le
+> tissage **portant les numéros de chaque couleur**. »
+
+La numérotation des zones n'est donc pas une commodité d'interface : c'est la définition
+du carton. La maquette est la « création d'un artiste peintre ou cartonnier », et la
+lissière « doit recréer une image peinte par une technique autre que celle du peintre
+cartonnier ». L'agrandissement se fait **aux carreaux**, à la grille.
+
+**Cadence.**
+
+> « Environ 4 à 6 mois pour la réalisation de 2 mètres carrés dans une texture assez fine
+> de 5 fils au cm. »
+
+Soit **2 à 3 mois le m²**, tout compris. Ce n'est pas le temps de tissage seul et encore
+moins celui du calque, mais ça situe l'enjeu : sur un ouvrage de ce rythme, une journée
+gagnée ou perdue au calque ne décide de rien ; c'est la **justesse** du tracé qui compte,
+pas la vitesse de l'outil.
+
+**Vocabulaire.** Le site emploie **flûte** pour la navette, en précisant que c'est le nom
+d'Aubusson — donc le mot de la basse lice, là où « broche » est celui de la haute lice.
+À reprendre dans le ton de voix.
+
+**Ce que le site ne dit pas** : temps de calque, nombre de tons, consommation, poids,
+fournisseurs, teinture, tarifs. La page Œuvres est chargée dynamiquement et ne rend
+aucune fiche d'ouvrage.
+
+**Deux pistes.** L'atelier est ouvert toute l'année et ses coordonnées sont publiques :
+c'est un second lissier en activité, indépendant de Ju, pour recouper le temps de calque.
+Et *Lissière d'Armorique* (M-Line, 2006), disponible à l'atelier, est le genre d'ouvrage
+qui contient les chiffres qu'aucun site ne publie.
 
 ---
 
@@ -280,6 +337,14 @@ central, et c'est une compétence évaluée. L'app devrait accepter *essai de 10
 poids en g* comme source de la consommation, et basculer la ligne de `Matiere` de
 « estimée » à « mesurée ». Ça colle au principe 2 de la charte (la mesure affiche sa
 source) et ça transforme la faiblesse du d. en fonctionnalité.
+
+### e bis. `Zones` ne produit pas une image, il produit le carton
+
+« Carton : agrandissement de la maquette aux carreaux et plan de travail pour le tissage
+portant les numéros de chaque couleur » (§ 8). L'écran `Zones` ne reproduit donc pas une
+convention de peinture par numéros empruntée à l'extérieur : il fabrique l'artefact que
+le métier appelle carton. Deux conséquences — le nommer ainsi dans l'interface, et
+assumer qu'il est le livrable principal de F1 + F2, pas un aperçu.
 
 ### f. Le nuancier de l'école est un système, pas une liste
 
