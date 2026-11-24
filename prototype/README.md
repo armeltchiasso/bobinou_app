@@ -22,6 +22,7 @@ Testé sur Python 3.12 / Windows. Rien n'est propre à la plateforme.
 | `trouver_coins.py` | Repère les pièces sur une photo d'atelier et sort leurs coins |
 | `calque.py` | La chaîne complète : photo → calque imprimable en bandes |
 | `comparer.py` | Confronte un calque généré au calque fait main correspondant |
+| `sensibilite.py` | Ce qui pèse sur le chiffrage, et quelle marge met à l'abri |
 
 ### Cadrer
 
@@ -91,11 +92,26 @@ homographie ne corrige pas une ondulation de papier. L'écart visible sur la
 superposition est donc en bonne partie celui de la prise de vue. On juge la
 **présence** et la **forme** des traits, pas leur position.
 
+## Chiffrer et mesurer le risque
+
+```
+python sensibilite.py --largeur 60 --hauteur 100
+```
+
+Sort trois choses : ce qui pèse sur le poids annoncé (une variable à la fois, puis la
+part de variance sur 200 000 tirages), et surtout **la marge nécessaire pour ne pas
+manquer de laine** selon ce que l'étudiant a mesuré. Lecture dans
+[`../docs/etape-3-sensibilite.md`](../docs/etape-3-sensibilite.md).
+
+Point de méthode à ne pas perdre : la contexture se tire **par rang entier** de la
+table de Galice p. 22. Le métrage au kilo et les fils/cm y montent ensemble ; les
+faire varier séparément fabrique des contextures qui n'existent pas, et un faux
+résultat à 30 % d'amplitude.
+
 ## Ce qui reste à faire
 
 - Les **3 ouvrages réels** avec leur liste de matière : l'emplacement est prévu dans
   les mesures, il calculera l'écart entre poids prédit et poids réel.
-- L'**analyse de sensibilité** sur consommation, contexture et marge.
 - Le **test papier** avec Ju, qui seul tranche.
 - Les **cotes réelles** des pièces photographiées. Celles utilisées ici (60 × 100 cm)
   sont déduites du rapport largeur/hauteur mesuré, pas relevées au mètre.
