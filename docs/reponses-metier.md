@@ -283,6 +283,82 @@ c'est un second lissier en activité, indépendant de Ju, pour recouper le temps
 Et *Lissière d'Armorique* (M-Line, 2006), disponible à l'atelier, est le genre d'ouvrage
 qui contient les chiffres qu'aucun site ne publie.
 
+## 9. Levée des réserves — recherche web du 2026-11-24
+
+*Les réserves émises dans [`etape-3-sensibilite.md`](./etape-3-sensibilite.md) et plus
+haut dans ce document, passées au web. Deux sont levées, deux ne le seront pas en
+ligne. Sources web, datées de cette recherche.*
+
+### Le métier a un nom pour F3 : le **kilotage**
+
+C'est la trouvaille de la recherche, et elle est nette. Deux sources indépendantes
+donnent la même définition — le [Centre des monuments nationaux](https://tapisseries.monuments-nationaux.fr/La-tapisserie-de-A-a-Z/La-Fabrication-d-une-tapisserie)
+et [Villages et Patrimoine](https://www.villagesetpatrimoine.fr/tapisserie-aubusson-partie1/) :
+
+> « À partir du carton, le lissier évalue la quantité de matériaux (laine, soie, fils
+> d'or et d'argent) dont il a besoin. On appelle cette opération le **kilotage**. »
+
+Et ce que Villages et Patrimoine ajoute referme la boucle avec le référentiel BMA :
+
+> « Cela lui permet de chiffrer le coût de son travail. »
+
+Donc F3 n'invente rien : il outille une opération nommée, qui part du carton, qui
+couvre toutes les matières, et qui sert à chiffrer. C'est aussi la rubrique « coûts et
+gestion de fabrication » du dossier de BMA (§ 6).
+
+Deux conséquences dans *Ce que ça change*, point h.
+
+### La consommation au m² n'est publiée nulle part pour la lisse
+
+Réserve **non levée, mais fermée** : on sait maintenant que ce n'est pas faute d'avoir
+cherché. Aucune source ne donne de kg/m² pour la tapisserie de lisse. Les sources
+décrivent le kilotage comme une opération d'atelier, sans jamais en publier le ratio.
+
+**Piège à ne pas tomber dedans.** Un atelier de
+[tapisserie au petit point](http://www.point-contrepoint.com/pelemele/conseils/combiendelaine.php)
+annonce « 1 200 grammes de laine pour couvrir un mètre carré », et certaines élèves
+« au-dessous du kilo ». C'est de la **broderie à l'aiguille sur canevas**, pas du
+tissage sur métier de lisse. Le chiffre tombe dans la plage de Galice par coïncidence
+de densité, pas par identité de technique. **Ne pas l'utiliser.**
+
+La plage de 1 à 2 kg/m² de Galice (p. 61) reste donc la seule référence, et l'essai
+pesé reste la seule façon de la resserrer.
+
+### Titrage : ce que « 2/20 » veut dire
+
+Le titrage s'exprime en **milliers de mètres au kilo**. Une laine **2/20** est faite de
+deux bouts retordus d'un fil de 20 000 m/kg, soit environ **10 000 m/kg** pour le fil
+fini. La [Filature Terrade](https://www.entrepriseetdecouverte.fr/visite/filature-terrade/)
+produit des fils de **1 000 à 15 000 m/kg**, simples ou retors, et ses fils servent à
+la tapisserie d'Aubusson-Felletin.
+
+Cohérent avec la table de Galice p. 22, dont les chaînes à 750, 1 250 et 1 650 m/kg
+sont bien plus grosses — c'est normal, c'est de la chaîne, pas de la trame.
+[Art et Laine](https://www.artetlaine.fr/boutique/fournitures/fils-divers/laine-fine-daubusson/)
+conditionne sa 2/20 en échevettes de 10 et 20 g, mais pour la tapisserie à l'aiguille.
+
+Aucun poids d'écheveau officiel de trame pour métier de lisse. Réserve non levée :
+c'est un appel à la filature.
+
+### Impression : les largeurs de traceur existent, celle de C2 Color non
+
+Aucune source ne traite de l'impression d'un carton lissier à l'échelle 1. En revanche
+les **largeurs de rouleau courantes** sont standard : **610, 914 et 1 067 mm**, et la
+largeur utile est celle que la machine accepte.
+
+C'est exploitable tel quel : une bande de calque de **60 cm de large tient en un seul
+lé** sur n'importe quel traceur. Au-delà d'environ **1 m de large**, il faut raccorder
+des lés — ce qui ajoute un raccord vertical aux raccords horizontaux de bandes.
+
+La largeur du traceur de C2 Color reste à demander par téléphone.
+
+### Durées de tissage — un repère de plus
+
+Les sources donnent **un à dix mois le m²** selon la finesse, « un mois en moyenne »
+pour l'une d'elles. L'atelier de Serres annonçait 2 à 3 mois le m² à 5 fils/cm (§ 8) :
+il se place dans la moitié fine de cette fourchette, ce qui est cohérent. Rien de tout
+ça ne concerne le temps du **calque**, toujours sans mesure.
+
 ---
 
 ## Ce que ça change pour le produit
@@ -394,6 +470,22 @@ teinte** (`50 80 180/6`). F2 peut viser ces coordonnées plutôt qu'un RGB libre
 rend la « réf. à associer » de l'écran `Tons` mécanique au lieu d'être manuelle.
 Attention : en Savonnerie, la référence se juge au pompon et il faut forcer la valeur.
 
+### h. Appeler F3 « kilotage », et lui donner toutes les matières
+
+Le métier nomme déjà l'opération que F3 automatise (§ 9). Trois conséquences :
+
+- **Le mot.** « Chiffrage matière » est une invention d'interface ; **kilotage** est le
+  terme d'atelier, il ne se confond avec rien, et il est dans le vocabulaire que
+  l'étudiant apprend. C'est le contraire du cas de `Zones` (point *e bis*) : là le mot
+  juste était déjà pris, ici il est libre et il nous attend.
+- **Le périmètre.** Le kilotage couvre « laine, soie, fils d'or et d'argent ». Les
+  maquettes ne prévoient qu'une fibre par projet. Ce n'est pas un défaut pour le MVP,
+  mais la liste de matière doit pouvoir porter plusieurs fibres sur un même ouvrage,
+  sinon elle n'est pas un kilotage.
+- **Le coût.** Le kilotage sert à « chiffrer le coût du travail », et c'est la rubrique
+  du dossier de BMA (§ 6). L'écran `Fiche` gagnerait une colonne prix — hors MVP, mais
+  c'est la suite naturelle, pas une idée d'ailleurs.
+
 ### g. Ce qui reste bloqué
 
 - **La durée d'un calque fait main sur un cas précis.** L'ordre de grandeur est connu
@@ -401,6 +493,9 @@ Attention : en Savonnerie, la référence se juge au pompon et il faut forcer la
   seuil : le critère n° 2 du tableau de verdict compare un temps de retouche à ce
   dénominateur. À chronométrer sur le modèle du test papier, ou à remplacer par un
   jugement de Ju.
-- **La largeur du traceur de C2 Color**, qui fixe la largeur des bandes imprimables.
+- **La largeur du traceur de C2 Color.** Les largeurs de rouleau standard (610, 914,
+  1 067 mm) donnent déjà l'ordre de grandeur : sous 1 m de large, une bande tient en un
+  lé. Reste à confirmer ce que cet imprimeur-là accepte, et sur quel support.
+- **Le poids d'un écheveau de trame** pour métier de lisse : à demander à la filature.
 - Les **dimensions en cm** des pièces photographiées et les **3 listes de matière
   réelles**, toujours attendues : ce sont elles qui mesureront l'écart au poids prédit.

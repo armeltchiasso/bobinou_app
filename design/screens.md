@@ -85,7 +85,18 @@ consiste bien à donner à chaque zone un numéro renvoyant à une teinte ou à 
 fils. Mais l'ordre compte — ce code se fixe **après** l'échantillonnage, pas avant. Les
 numéros de `Zones` ne valent donc qu'une fois les tons arrêtés en 7 et 8.
 
-## F3 — Chiffrage matière
+## F3 — Kilotage (ex « chiffrage matière »)
+
+**Renommé le 2026-11-24.** Le métier nomme déjà cette opération : « à partir du carton,
+le lissier évalue la quantité de matériaux (laine, soie, fils d'or et d'argent) dont il
+a besoin. On appelle cette opération le **kilotage** » — et elle lui sert à chiffrer le
+coût de son travail, ce qui est la rubrique du dossier de BMA. Détail et sources dans
+[`../docs/reponses-metier.md`](../docs/reponses-metier.md) § 9.
+
+« Chiffrage matière » était une invention d'interface ; le mot juste existe, il est
+libre, et il est dans le vocabulaire que l'étudiant apprend. À reprendre sur les
+artboards.
+
 
 | # | Artboard | Rôle | À noter |
 | --- | --- | --- | --- |

@@ -111,6 +111,12 @@ moins**, et la certitude qu'on ne perd rien à les supprimer.
 - La consommation est tirée uniformément entre 1 et 2 kg/m². C'est la plage du livre,
   pas une distribution observée ; si la pratique se concentre autour de 1,3, tous les
   risques baissent. Les **3 ouvrages réels** trancheront.
+
+  *Vérifié le 2026-11-24 : aucune source publique ne donne de consommation au m² pour
+  la tapisserie de lisse — les ateliers décrivent le kilotage sans jamais en publier le
+  ratio (voir [`reponses-metier.md`](./reponses-metier.md) § 9). La plage de Galice
+  reste la seule référence. Attention au chiffre de 1,2 kg/m² qui circule : il concerne
+  la tapisserie **au petit point**, de la broderie sur canevas, pas du tissage.*
 - Le modèle ignore la répartition par couleur. Manquer de 10 % sur le ton dominant
   n'a pas le même coût que sur un ton qui couvre 2 % de la surface. À reprendre quand
   F2 sortira les surfaces par ton — le prototype les calcule déjà.
